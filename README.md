@@ -1,2 +1,2 @@
 # Informa-es
-dudu of grall
+Essa é uma pagina focada em mostrar algumas informações sobre o Eduardo!
