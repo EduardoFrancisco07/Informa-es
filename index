@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Contato</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #1e00a8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .profile img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 15px;
+      border-radius: 30px;
+      margin: 15px 0;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .whatsapp {
+      background: #5ad14b;
+    }
+
+    .instagram {
+      background: linear-gradient(45deg, #ff512f, #dd2476);
+    }
+
+    .github {
+      background: #bdbdbd;
+      color: #333;
+    }
+
+    .btn img {
+      width: 26px;
+      height: 26px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="profile">
+      <!-- Troque pelo nome da sua imagem -->
+      <img src="img\foto minha.jpg" alt="Minha foto">
+    </div>
+
+    <a class="btn whatsapp" href="https://wa.me/5514981153108" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+      (14) 98115-3108
+    </a>
+
+    <a class="btn instagram" href="https://instagram.com/FranXco_3D" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+      FranXco_3D
+    </a>
+
+     <a class="btn instagram" href="https://www.instagram.com/eduard0francisco_?igsh=MXJqa3B4NzMwb2x1YQ==" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+      eduard0francisco_
+    </a>
+
+    <a class="btn github" href="https://github.com/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png">
+      GitHub
+    </a>
+
+  </div>
+
+</body>
+</html>
